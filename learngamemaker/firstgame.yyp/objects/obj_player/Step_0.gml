@@ -41,9 +41,9 @@ if (l196824EC_0)
 		/// @DnDArgument : "xpos" "x"
 		/// @DnDArgument : "ypos" "y"
 		/// @DnDArgument : "objectid" "obj_bullet"
-		/// @DnDArgument : "layer" ""Bullets""
+		/// @DnDArgument : "layer" ""Layer_Bullets""
 		/// @DnDSaveInfo : "objectid" "6adf6294-d436-4f7e-9df6-b31f24f73071"
-		instance_create_layer(x, y, "Bullets", obj_bullet);
+		instance_create_layer(x, y, "Layer_Bullets", obj_bullet);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "065a4e00-770f-4656-a6b1-d9194352b44e",
+            "Value": {
+                "id": "95e98a4f-d2fa-4b52-a8f5-22b992df604a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_score\/obj_score.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "27cd38c4-0cbe-4459-84fd-7a81330106a8",
             "Value": {
                 "id": "8120390f-8114-4015-9f1d-02397788cade",
@@ -150,6 +169,25 @@
                 ],
                 "resourcePath": "views\/458bf745-673a-42af-969e-b63e7cfa967a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "48c1a8c1-20b7-4c17-9ae8-f9b711cb4a9f",
+            "Value": {
+                "id": "a8e672ad-9f1f-48fb-b393-425e64c4953c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_enemy\/obj_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -267,6 +305,25 @@
             }
         },
         {
+            "Key": "791f4be3-92d9-49e3-8b6c-21b15e9e5fd1",
+            "Value": {
+                "id": "420a4835-5957-4552-9fdc-70cacf96fd8f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/til_background\/til_background.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "8c4717ad-4d96-48a3-9218-022ed437141a",
             "Value": {
                 "id": "333ce77b-c3ed-461f-9220-48d3b0f88cae",
@@ -283,6 +340,25 @@
                 ],
                 "resourcePath": "views\/8c4717ad-4d96-48a3-9218-022ed437141a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93f160a8-6bbe-42e5-b40b-2c39939fc1c6",
+            "Value": {
+                "id": "22e9b2f8-9b7b-440c-8c55-4f6929490f6d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_background\/spr_background.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -416,6 +492,25 @@
                 ],
                 "resourcePath": "views\/e46dbc20-f2dc-4ca6-8855-d185c31e5bb9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6390655-7c26-4e2f-bc40-e5607b23386e",
+            "Value": {
+                "id": "dd014f68-5fb4-42a5-9f34-23945a83ab85",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_enemy\/spr_enemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
