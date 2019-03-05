@@ -3,6 +3,32 @@
 <head>
 	<title>Learn Shaders</title>
 	<link rel="stylesheet" href="./css/style.css">
+	<!-- <script id="vertexShader" type="x-shader/x-vertex">
+        void main() {
+            gl_Position = vec4( position, 1.0 );
+        }
+    </script>
+    <script id="fragmentShader" type="x-shader/x-fragment">
+        uniform vec2 u_resolution;
+        uniform float u_time;
+
+        void main() {
+            vec2 st = gl_FragCoord.xy/u_resolution.xy;
+            gl_FragColor=vec4(st.x,st.y,0.0,1.0);
+        }
+    </script> -->
+
+    <script id="vertexShader" type="x-shader/x-vertex">
+        void main() {
+			gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
+		}
+
+    </script>
+    <script id="fragmentShader" type="x-shader/x-fragment">
+        void main() {
+			gl_FragColor 	= vec4(1.0,0.0,1.0,1.0);
+		}
+    </script>
 </head>
 <body>
 	<div id="Stats-output"></div>
@@ -13,6 +39,11 @@
 	<script src = "./js/lib/stats.js"></script>
 	<script src = "./js/lib/perlin.js"></script>
 	<script src = "./js/lib/OrbitControls.js"></script>
+	<!-- helper script -->
+	<script src = "./js/lib/helper.js"></script>
+
+	<script src="./shader/fragment.js"></script>
+	<script src="./shader/vertex.js"></script>
 	<!-- actual script -->
 	<script src = "./js/script/index.js"></script>
 </body>
